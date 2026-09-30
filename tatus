@@ -1,0 +1,10 @@
+[33m59479a0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Add application UI resources and icons
+[33mc93cc2d[m Add application settings functionality
+[33md364dd5[m Implement recipe matching logic
+[33m050d331[m Add recipe suggestions and recipe detail interface
+[33mb6cf651[m Add initial pantry and recipe seed data
+[33ma7fd2e1[m Add pantry management and recipe data
+[33m6497f57[m Implement Room database connection
+[33m98f19d5[m Add pantry item model and DAO
+[33m5cda5f6[m Add MainActivity and bottom navigation
+[33mf5dda31[m Initial Smart Pantry Manager App setup
