@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat
+        android:key="expiring_alerts"
+        android:title="Expiring-soon alerts"
+        android:summary="Highlight pantry items that are close to their expiry date"
+        android:defaultValue="true" />
+    <ListPreference
+        android:key="expiry_days"
+        android:title="Expiry warning period"
+        android:summary="Flag items expiring within this many days"
+        android:entries="@array/expiry_days_entries"
+        android:entryValues="@array/expiry_days_values"
+        android:defaultValue="3"
+        android:dependency="expiring_alerts" />
+    <SwitchPreferenceCompat
+        android:key="prefer_metric"
+        android:title="Prefer metric units"
+        android:summary="Display weights in grams and volumes in millilitres"
+        android:defaultValue="true" />
+</PreferenceScreen>
