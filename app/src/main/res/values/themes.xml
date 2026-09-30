@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.SmartPantry" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/green_700</item>
+        <item name="colorSecondary">@color/green_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+</resources>
